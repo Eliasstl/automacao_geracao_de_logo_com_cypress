@@ -16,8 +16,15 @@ Este projeto é uma API construída usando o Cypress para automatizar a criaçã
 -  node index.js
   
 ### Documentação Postman
- [Documentação](https://documenter.postman.com/preview/21307851-e7a13135-0cb3-4b7a-9502-bcddd7d3eab8?environment=&versionTag=latest&apiName=CURRENT&version=latest&documentationLayout=classic-double-column&documentationTheme=light&logo=https%3A%2F%2Fres.cloudinary.com%2Fpostman%2Fimage%2Fupload%2Ft_team_logo%2Fv1%2Fteam%2Fanonymous_team&logoDark=https%3A%2F%2Fres.cloudinary.com%2Fpostman%2Fimage%2Fupload%2Ft_team_logo%2Fv1%2Fteam%2Fanonymous_team&right-sidebar=303030&top-bar=FFFFFF&highlight=FF6C37&right-sidebar-dark=303030&top-bar-dark=212121&highlight-dark=FF6C37)
-
+```shell
+curl --location 'http://localhost:3000/gerarlogo' \
+--data-raw '{
+    "email":"robertodatas@gmail.com",
+    "senha":"@admin",
+    "logo": "Igreja Deus é Amor",
+    "slogan": "Aqui você encontra sua paz"
+}'
+````
 ### Video do projeto rodando
 [Video do projeto](https://drive.google.com/file/d/1NTPLR5HL7EQo3CdsvwORqcOKIwlXIeat/view?usp=sharing).
 ### Clonar o Repositório
